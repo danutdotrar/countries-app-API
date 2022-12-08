@@ -61,7 +61,7 @@ btn.addEventListener('click', function getCountryData() {
           .then(data => renderCountry(data[0], 'neighbour'))
           .catch(error => {
             console.log(`${error}`);
-            renderError(`Something went wrong :( ${error.message}.`)
+            renderError(`Something went wrong :( Please type in a correct country name.`)
         })
         .finally(() => {
             countriesContainer.style.opacity = '1';

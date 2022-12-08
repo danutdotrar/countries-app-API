@@ -14,7 +14,6 @@ body {
   color: #555;
   background-color: #f7f7f7;
   min-height: 100vh;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,6 +23,7 @@ body {
   display: flex;
   flex-flow: column;
   align-items: center;
+
 }
 
 .countries {
@@ -99,6 +99,7 @@ body {
 }
 
 .btn-country {
+  transition: all 1s;
   border: none;
   font-size: 1.8rem;
   height: 4.5rem;
@@ -112,6 +113,7 @@ body {
 
 .btn-reset {
   /* margin-top: 2rem; */
+  transition: all 1s;
   border: none;
   font-size: 1.8rem;
   height: 4.5rem;
@@ -124,6 +126,7 @@ body {
 }
 
 #country-name {
+  transition: all 1s;
   margin-top: 2rem;
   border: 2px;
   border-color: black;
